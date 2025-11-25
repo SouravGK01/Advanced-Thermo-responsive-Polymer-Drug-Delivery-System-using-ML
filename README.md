@@ -23,7 +23,7 @@ This repository contains a MATLAB GUI for simulation and analysis of thermorespo
 
 ## Dataset Description
 This project dataset contains 650 samples, compiled from published research and synthetic simulation, with each row representing one polymer/drug formulation and experimental or simulated outcome.
-Please refer to the 'Data' folder for more information
+Please refer to the '/Data Description' folder for more information
 
 ## Output Formulae
 - **Drug Loading Capacity (%)-**
