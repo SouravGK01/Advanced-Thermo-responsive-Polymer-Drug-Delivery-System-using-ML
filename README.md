@@ -72,7 +72,7 @@ Please refer to the [**`Data Description`**](https://github.com/SouravGK01/Advan
   - [Polymers Blending as Release Modulating Tool in Drug Delivery](https://www.frontiersin.org/articles/10.3389/fmats.2021.752813/full)
 
 ## Contact
-    -gksourav91@gmail.com
+    gksourav91@gmail.com
   
 
 
