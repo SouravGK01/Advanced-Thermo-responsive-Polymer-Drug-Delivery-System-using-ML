@@ -43,7 +43,8 @@ Please refer to the [**`Data Description`**](https://github.com/SouravGK01/Advan
   - IC50 Bonus = min(20, max(0, (50 - IC50) × 0.4))
  
 ## Output:
-  Please see /Outputs for example GUI and result screenshots.
+  Please see [**`Results.pdf`**](https://github.com/SouravGK01/Advanced-Thermo-responsive-Polymer-Drug-Delivery-System-using-ML/blob/3533e3e3bbf55e31663b9ab1dd67cde55f2f7a35/Results.pdf) file for example GUI and result screenshots. 
+
  
  ## References
   - [Prediction model for cloud point of thermo-responsive polymers](https://pubs.rsc.org/en/content/articlelanding/2023/py/d3py00314k)
