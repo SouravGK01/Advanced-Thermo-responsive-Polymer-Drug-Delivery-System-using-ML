@@ -27,21 +27,20 @@ Please refer to the 'Data' folder for more information
 
 ## Output Formulae
 - **Drug Loading Capacity (%)-**
-  --Drug Loading = 15 × LCST_Factor × Crosslinker_Factor × Size_Factor × pH_Factor
-  --LCST_Factor = 1 + 0.02 × (LCST - 30)
-  --Crosslinker_Factor = 1 / (1 + 1.5 × Crosslinker Ratio)
-  --Size_Factor = 1 + (200 - Particle Size) / 1000
-  pH_Factor = 1 + 0.03 × |pH - 7.4|
+  - Drug Loading = 15 × LCST_Factor × Crosslinker_Factor × Size_Factor × pH_Factor
+  - LCST_Factor = 1 + 0.02 × (LCST - 30)
+  - Crosslinker_Factor = 1 / (1 + 1.5 × Crosslinker Ratio)
+  - Size_Factor = 1 + (200 - Particle Size) / 1000
+  - pH_Factor = 1 + 0.03 × |pH - 7.4|
 - **Release Efficiency (%)-**
   0.6 × Drug Release(72h) + 0.3 × Cell Viability(24h) + 0.1 × [100 - 10 × Hemolysis]
 - **Swelling Ratio-**
-  2 + 12 × TempFactor × CrosslinkerFactor × pHFactor
-  TempFactor = 1 + (LCST - Temp)/15 (if Temp < LCST), else 1 + (LCST - Temp)/10
-  CrosslinkerFactor = 1 / (1 + 2 × Crosslinker Ratio)
-  pHFactor = 1 + 0.05 × |pH - 7.4|
+  - 2 + 12 × TempFactor × CrosslinkerFactor × pHFactor
+  - TempFactor = 1 + (LCST - Temp)/15 (if Temp < LCST), else 1 + (LCST - Temp)/10
+  - CrosslinkerFactor = 1 / (1 + 2 × Crosslinker Ratio)
 - **Biocompatibility Score -**
-  Cell Viability(24h) - 8 × Hemolysis + IC50 Bonus
-  IC50 Bonus = min(20, max(0, (50 - IC50) × 0.4))
+  - Cell Viability(24h) - 8 × Hemolysis + IC50 Bonus
+  - IC50 Bonus = min(20, max(0, (50 - IC50) × 0.4))
 
   
 
