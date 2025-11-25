@@ -18,7 +18,7 @@ This repository contains a MATLAB GUI for simulation and analysis of thermorespo
     - MATLAB R2020a or later
     - Statistics and Neural Network Toolboxes
 2. Clone or download this repository.
-3. Open [**`Code.m`**]() in MATLAB and Run.
+3. Open [**`Code.m`**](https://github.com/SouravGK01/Advanced-Thermo-responsive-Polymer-Drug-Delivery-System-using-ML/blob/b78734865ef59bdda5e378444f911b6050bf1236/code.m) in MATLAB and Run.
 4. Use the GUI for analysis and visualization.
 
 ## Dataset Description
