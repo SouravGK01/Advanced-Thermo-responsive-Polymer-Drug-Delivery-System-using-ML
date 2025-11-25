@@ -41,8 +41,16 @@ Please refer to the 'Data' folder for more information
 - **Biocompatibility Score -**
   - Cell Viability(24h) - 8 × Hemolysis + IC50 Bonus
   - IC50 Bonus = min(20, max(0, (50 - IC50) × 0.4))
-
-[Prediction model for cloud point of thermo-responsive polymers](https://pubs.rsc.org/en/content/articlelanding/2023/py/d3py00314k)
+ 
+  ## Output:
+  Please see /Outputs for example GUI and result screenshots.
+ 
+  ## References
+  - [Prediction model for cloud point of thermo-responsive polymers](https://pubs.rsc.org/en/content/articlelanding/2023/py/d3py00314k)
+  - [pNIPAm-Based Hydrogel Drug Delivery](https://pmc.ncbi.nlm.nih.gov/articles/PMC10970268/)
+  - [Drug Loading Augmentation in Polymeric Nanoparticles](https://pmc.ncbi.nlm.nih.gov/articles/PMC6360111/)
+  - [In Vitro Release Study of Polymeric Drug Nanoparticles](https://pmc.ncbi.nlm.nih.gov/articles/PMC7465254/)
+  - [Polymers Blending as Release Modulating Tool in Drug Delivery](https://www.frontiersin.org/articles/10.3389/fmats.2021.752813/full)
 
   
 
