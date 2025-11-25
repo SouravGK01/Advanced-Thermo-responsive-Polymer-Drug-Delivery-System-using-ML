@@ -42,6 +42,8 @@ Please refer to the 'Data' folder for more information
   - Cell Viability(24h) - 8 × Hemolysis + IC50 Bonus
   - IC50 Bonus = min(20, max(0, (50 - IC50) × 0.4))
 
+[Prediction model for cloud point of thermo-responsive polymers](https://pubs.rsc.org/en/content/articlelanding/2023/py/d3py00314k)
+
   
 
 
