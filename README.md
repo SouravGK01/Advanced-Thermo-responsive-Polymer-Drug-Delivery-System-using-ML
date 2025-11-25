@@ -18,12 +18,12 @@ This repository contains a MATLAB GUI for simulation and analysis of thermorespo
     - MATLAB R2020a or later
     - Statistics and Neural Network Toolboxes
 2. Clone or download this repository.
-3. Open `Code.m` in MATLAB and Run.
+3. Open [**`Code.m`**]() in MATLAB and Run.
 4. Use the GUI for analysis and visualization.
 
 ## Dataset Description
 This project dataset contains 650 samples, compiled from published research and synthetic simulation, with each row representing one polymer/drug formulation and experimental or simulated outcome.
-Please refer to the [**`/Data Description`**](https://github.com/SouravGK01/Advanced-Thermo-responsive-Polymer-Drug-Delivery-System-using-ML/tree/d70a2787546df57b6acfd8f3a9b00a86ba9dc1c1/Data%20Description) folder for more information
+Please refer to the [**`Data Description`**](https://github.com/SouravGK01/Advanced-Thermo-responsive-Polymer-Drug-Delivery-System-using-ML/tree/d70a2787546df57b6acfd8f3a9b00a86ba9dc1c1/Data%20Description) folder for more information
 
 ## Output Formulae
 - **Drug Loading Capacity (%)-**
