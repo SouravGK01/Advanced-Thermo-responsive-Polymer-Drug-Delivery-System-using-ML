@@ -1,26 +1,18 @@
-# Advanced Thermo-responsive Polymer Drug Delivery System using Machine Learning
-## Overview
+# Description:
+## Columns in Dataset:
 
-This repository contains a MATLAB GUI for simulation and analysis of thermoresponsive polymer-based drug delivery systems. The application predicts drug loading capacity, release efficiency, swelling ratio, hemolysis, cell viability, and more. It supports single and dual polymer analysis, combination studies, and direct model validation against published experimental data.
+-SampleID: Unique identifier for each sample
+-SourceStudy: Literature source or synthetic category (e.g., Ghasemi2025Adapted, PNIPAMResearchStudies, SyntheticTrainingData)
+-LCSTdegC: Lower Critical Solution Temperature (°C)
+-TemperaturedegC: Experimental temperature (°C)
+-pH: Medium or buffer pH
+-PolymerConcmgml: Polymer concentration (mg/ml)
+-DoxorubicinConcugml: Drug concentration (μg/ml, typically doxorubicin)
+-CrosslinkerRatio: Fractional ratio of crosslinker (0.021–0.998)
+-ParticleSizenm: Particle size (nm)
+-DrugRelease72hpercent: % released in 72 hours
+-CellViability24hpercent: % viability at 24 hours (biocompatibility)
+-Hemolysispercent: % hemolysis (red blood cell damage)
+-IC50ugml: IC50 concentration for cytotoxicity (μg/ml)
+-LCSTEfficiency, ViabilityScore: Derived/summary metrics
 
-## Features
-
-- Four analysis modes: Single Polymer, Dual Polymer Comparison, Polymer Combination, Model Validation
-- Predicts drug release, cell viability, hemolysis, swelling ratio, drug loading capacity, and biocompatibility score
-- Visualizes polymer combination results with heatmaps and bar plots
-- Auto-fills literature reference values and supports manual input
-- Validation with reference literature values and error metrics
-- Sample screenshots and datasets included
-
-## How To Run
-
-1. Requirements:
-    - MATLAB R2020a or later
-    - Statistics and Neural Network Toolboxes
-2. Clone or download this repository.
-3. Open `main.m` in MATLAB and Run.
-4. Use the GUI for analysis and visualization.
-
-## Dataset Description
-This project dataset contains 650 samples, compiled from published research and synthetic simulation, with each row representing one polymer/drug formulation and experimental or simulated outcome.
-Please refer to the 'Data' folder for more information
