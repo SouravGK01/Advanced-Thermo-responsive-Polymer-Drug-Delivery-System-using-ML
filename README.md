@@ -42,10 +42,10 @@ Please refer to the [**`Data Description`**](https://github.com/SouravGK01/Advan
   - Cell Viability(24h) - 8 × Hemolysis + IC50 Bonus
   - IC50 Bonus = min(20, max(0, (50 - IC50) × 0.4))
  
-  ## Output:
+## Output:
   Please see /Outputs for example GUI and result screenshots.
  
-  ## References
+ ## References
   - [Prediction model for cloud point of thermo-responsive polymers](https://pubs.rsc.org/en/content/articlelanding/2023/py/d3py00314k)
   - [pNIPAm-Based Hydrogel Drug Delivery](https://pmc.ncbi.nlm.nih.gov/articles/PMC10970268/)
   - [Drug Loading Augmentation in Polymeric Nanoparticles](https://pmc.ncbi.nlm.nih.gov/articles/PMC6360111/)
