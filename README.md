@@ -30,7 +30,19 @@ Please refer to the [**`Data Description`**](https://github.com/SouravGK01/Advan
     - Purpose: Analyze performance (drug loading, release, swelling, biocompatibility) of one selected polymer system.
     - Workflow: Select polymer or manually enter properties (LCST, temp, pH, etc.), then predict outputs using built-in formulas and trained ML model.
     - Typical Use Case: Evaluate how a specific polymer candidate will perform for drug delivery under selected conditions.
-
+2.  Dual Polymer Comparison
+    - Purpose: Side-by-side comparison of two polymer systems on all metrics.
+    - Workflow: Choose two polymers, auto-fill their data, or manually edit parameters. Output includes direct comparison (bar charts, numerical tables) of drug           release, swelling, loading, etc.
+    - Typical Use Case: Identify which polymer formulation is superior for a desired property or application.
+3. Polymer Combination & LCST Variation
+   - Purpose: Study the effect of combining two polymers ("base" and "thermoresponsive") on LCST and system behavior.
+   - Workflow: Select two polymers from lists, view how LCST shifts, and analyze impact on drug loading, swelling, release efficiency, and synergy.
+   - Typical Use Case: Design and optimize hybrid polymer systems/copolymers for tunable drug delivery profiles and conditions.
+4. Model Validation with Research Data
+    - Purpose: Validate your model's predictions using external test datasets and values sourced from published research.
+    - Workflow: Select validation samples, run analysis, and compare predicted metrics to literature reference values; display accuracy and relative error.
+    - Typical Use Case: Demonstrate reliability and generalizability of the predictive system, and provide evidence for method validation
+      
 ## Output Formulae
 - **Drug Loading Capacity (%)-**
   - Drug Loading = 15 × LCST_Factor × Crosslinker_Factor × Size_Factor × pH_Factor
