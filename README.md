@@ -25,6 +25,12 @@ This repository contains a MATLAB GUI for simulation and analysis of thermorespo
 This project dataset contains 650 samples, compiled from published research and synthetic simulation, with each row representing one polymer/drug formulation and experimental or simulated outcome.
 Please refer to the [**`Data Description`**](https://github.com/SouravGK01/Advanced-Thermo-responsive-Polymer-Drug-Delivery-System-using-ML/tree/d70a2787546df57b6acfd8f3a9b00a86ba9dc1c1/Data%20Description) folder for more information
 
+## Project Working Categories
+1. Single Polymer Analysis
+    - Purpose: Analyze performance (drug loading, release, swelling, biocompatibility) of one selected polymer system.
+    - Workflow: Select polymer or manually enter properties (LCST, temp, pH, etc.), then predict outputs using built-in formulas and trained ML model.
+    - Typical Use Case: Evaluate how a specific polymer candidate will perform for drug delivery under selected conditions.
+
 ## Output Formulae
 - **Drug Loading Capacity (%)-**
   - Drug Loading = 15 × LCST_Factor × Crosslinker_Factor × Size_Factor × pH_Factor
